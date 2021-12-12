@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sala Rey de copas</title>
+    <!-- ENLACE CON FAVICON -->
+    <link rel="shortcut icon" href="./images/favicon/favicon.ico" type="image/x-icon">
+    <!-- ENLACE CON ESTILO -->
+    <link rel="stylesheet" href="./styles/SalaRey.css">
+    <!-- ENLACE CON JAVASCRIPT -->
+    <script src="./javascript/javascript.js"></script>
+    <!-- ENLACE ICONOS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax">
+    <!-- SI USO FUENTES DE GOOGLE FONTS Y NO LAS DESCARGO LAS ENLAZO AQUI -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- https://fonts.google.com/ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Meow+Script&family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="container">
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="#Historia">Historia</a>
+                <a href="#Reservas">Reservas</a>
+                <a href="#Inicio">Sala Rey de Copas</a> 
+                <a href="#Galeria">Galeria</a>
+                <a href="#Contacto">Contacto</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+        </nav>
+        <section id="Inicio"></section>
+
+        <hr id="hrinicio">
+
+        <section id="Historia">
+            <h1>"La historia de Sala Rey de Copas"</h1>
+            <p>Sala Rey de Copas fue fundada en 1994 por Jose Rey Molla y Pedro Rey Molla<br>
+            dos hermanos que querian seguir el modelo de negocio de su padre<br>
+            Francisco Rey Gutierrez. Despues de tantisimas celebraciones <br>
+            y infinidad de fiestas, muchos cambios y un monton de años el pasado <b><i>4/12/2021</i></b><br>
+            hizo su ultima celebracion, ya que;<br>
+            Sala Rey de Copas fue alquilado a un nuevo dueño.</p>
+
+            <img id="Historiaimg" src="./images/Historia.jpg">
+        </section>
+
+        <hr id="hrinicio">
+
+        <section id="Reservas">
+            <h1>Reservas:</h1>
+            <div class="cuartos">
+                <p id="preservas">Entrada general</p>
+                <p>Precio: 10€</p>
+                <p>1 Consumicion</p>
+                
+            </div>
+            <div class="cuartos">
+                <p id="preservas">Entrada V.I.P</p>
+                <p>Precio: 25€</p>
+                <p>4 Consumiciones y 4 Chupitos</p>
+            </div>
+            <div class="cuartos">
+                <p id="preservas">Reservado V.I.P</p>
+                <p>Precio: 250€</p>
+                <p>8 Personas</p>
+                <p>2 Botellas o 1 Beldevere 1,75L</p>
+                <p>1Botella para chupito</p>
+            </div>
+            <div class="cuartos">
+                <p id="preservas">Reservado Premium</p>
+                <p>Precio: 1000€</p>
+                <p>10 Personas</p>
+                <p>1 Botella Beldevere 6L</p>
+                <p>1 Botella a eleccion</p>
+                <p>2 Botellas para chupitos</p>
+            </div>
+
+            <!-- Pongo otro div vacio para romper el float y que no se monte el contenido que viene detras -->
+            <div class="fin-float"></div>
+        </section>
+
+        <hr id="hrinicio">
+
+        <section id="Galeria">
+
+            <h1>Nuestros momentos juntos</h1>
+
+        <div class="foto">
+                <img src="./images/Foto1.jpg" alt="Foto1">
+                <h2>1999</h2>
+        </div>
+        <div class="foto">
+                <img src="./images/Foto5.jpg" alt="Foto2">
+                <h2>2001</h2>
+        </div>
+        <div class="foto">
+                <img src="./images/Foto3.jpg" alt="Foto3">
+                <h2>2004</h2>
+        </div>
+        <div class="foto">
+                <img src="./images/Foto4.jpg" alt="Foto4">
+                <h2>2007</h2>
+        </div>
+        <div class="fin-float"></div>
+
+        <div class="foto">
+                <img src="./images/Foto6.jpg" alt="Foto1">
+                <h2>2012</h2>
+        </div>
+        <div class="foto">
+                <img src="./images/Foto7.jpg" alt="Foto2">
+                <h2>2015</h2>
+        </div>
+        <div class="foto">
+                <img src="./images/Foto8.jpg" alt="Foto3">
+                <h2>2017</h2>
+        </div>
+        <div class="foto">
+                <img src="./images/Foto9.jpg" alt="Foto4">
+                <h2>2019</h2>
+        </div>
+        <div class="fin-float"></div>
+
+        <hr id="hrinicio">
+
+        </section>
+        <section id="Contacto">
+                <h1>Contactos</h1>
+                <a href="https://www.instagram.com/salareydecopas/?hl=es"><img src="./images/instagram.png" alt=""></a>
+                <a href="https://www.facebook.com/Sala-Rey-de-Copas-606017099503858/photos/?ref=page_internal"><img src="./images/facebook.png" alt=""></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox"><img src="./images/email.png" alt=""></a>
+        </section>
+
+        <hr id="hrinicio">
+
+        <footer>
+            <img src="./images/logonegro.jpg" alt="">
+            <p>David Moreno Ruiz<br>Santa Rosalia - Maqueda <br>12/12/2021</p>
+           
+        </footer>
+    </div>
+
+    
+</body>
+</html>
